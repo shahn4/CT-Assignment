@@ -1,0 +1,4 @@
+CREATE DATABASE ct_assignment;
+>>USE ct_assignment;
+CREATE TABLE ViewCount(Id INT ,PostTypeId INT,AcceptedAnswerId INT,ParentId INT,CreationDate STRING,DeletionDate STRING,Score INT,ViewCount INT,Body VARCHAR(10000),OwnerUserId INT,OwnerDisplayName STRING,LastEditorUserId INT,LastEditorDisplayName STRING,LastEditDate STRING,LastActivityDate STRING,Title STRING,Tags STRING,AnswerCount INT,CommentCount INT,FavoriteCount INT,ClosedDate STRING,CommunityOwnedDate STRING,ContentLicense STRING) ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',';
