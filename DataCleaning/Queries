@@ -1,0 +1,9 @@
+sed -e 's/<[^>]*>//g' 'QueryResults (1).csv'>Data1
+sed -e 's/<[^>]*>//g' 'QueryResults (2).csv'>Data2
+sed -e 's/<[^>]*>//g' 'QueryResults (3).csv'>Data3
+sed -e 's/<[^>]*>//g' 'QueryResults (4).csv'>Data4
+
+~$ sed -e $'s/\t//g' -e "s/[[:punct:]]\+//g" -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' Data1 > NoPunctuation1
+$ sed -e $'s/\t//g' -e "s/[[:punct:]]\+//g" -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' Data2 > NoPunctuation2
+~$ sed -e $'s/\t//g' -e "s/[[:punct:]]\+//g" -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' Data3 > NoPunctuation3
+~$ sed -e $'s/\t//g' -e "s/[[:punct:]]\+//g" -e 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/' Data4 > NoPunctuation4
