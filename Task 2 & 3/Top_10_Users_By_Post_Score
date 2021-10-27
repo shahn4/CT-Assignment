@@ -1,0 +1,1 @@
+SELECT owneruserid AS USERID, SUM(score) AS SCORE FROM viewcount GROUP BY owneruserid having owneruserid is not null SORT BY score DESC LIMIT 10;
