@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT owneruserid) FROM viewcount WHERE UPPER(body) LIKE '%CLOUD%' OR UPPER(title) LIKE '%CLOUD%' OR LOWER(body) LIKE '%cloud%' OR UPPER(tags) LIKE '%CLOUD%' OR LOWER(title) LIKE'%cloud%' OR LOWER(tags) LIKE '%CLOUD%';
