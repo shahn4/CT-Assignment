@@ -1,0 +1,4 @@
+select count(*) from posts where posts.ViewCount > 127350
+select count(*) from posts where posts.ViewCount > 74500 and posts.ViewCount < 127350
+select count(*) from posts where posts.ViewCount > 53000 and posts.ViewCount < 74500
+select count(*) from posts where posts.ViewCount > 41200 and posts.ViewCount < 53000
